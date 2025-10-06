@@ -1,0 +1,1 @@
+# CMOS-Flash-ADC-with-TMCC-Based-Comparator-and-Custom-Encoder
