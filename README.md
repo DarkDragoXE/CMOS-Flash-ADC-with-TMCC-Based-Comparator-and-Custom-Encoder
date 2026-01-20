@@ -2,30 +2,44 @@
 
 # CMOS Flash ADC with TMCC-Based Comparator
 
-[![Cadence](https://img.shields.io/badge/Tool-Cadence%20Virtuoso-red.svg)](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/layout-design/virtuoso-layout-suite.html)
+[![Cadence](https://img.shields.io/badge/Tool-Cadence%20EDA-red.svg)](https://www.cadence.com/)
 [![Technology](https://img.shields.io/badge/Process-gpdk060nm-blue.svg)](/)
 [![Type](https://img.shields.io/badge/Design-Analog%20IC-green.svg)](/)
 [![ADC](https://img.shields.io/badge/Resolution-3--bit-orange.svg)](/)
-[![Architecture](https://img.shields.io/badge/Architecture-Flash%20ADC-purple.svg)](/)
+[![CSIR](https://img.shields.io/badge/CSIR--CEERI-Pilani-purple.svg)](/)
 
 **A fully custom transistor-level 3-bit Flash ADC using TMCC comparators and custom CMOS logic gates**
 
-[Overview](#overview) | [Architecture](#architecture) | [Schematics](#schematics) | [Specifications](#specifications)
+[Overview](#overview) | [Architecture](#architecture) | [Schematics](#schematics) | [Specifications](#specifications) | [Author](#author)
 
 </div>
 
 ---
 
+## About
+
+This project was developed at **CSIR-CEERI, Pilani** (April 2025 - June 2025) as part of an Advanced VLSI Design research program. The Flash ADC demonstrates custom analog IC design techniques using fully transistor-level implementation without standard cells.
+
+| | |
+|---|---|
+| **Institution** | CSIR-CEERI, Pilani |
+| **Duration** | April 2025 - June 2025 |
+| **Team Size** | 2 |
+| **Role** | Team Member |
+| **Tools** | Cadence EDA (Virtuoso, ADE L, Spectre) |
+
+---
+
 ## Overview
 
-This project presents a complete transistor-level design of a **3-bit Flash Analog-to-Digital Converter (ADC)** implemented in **Cadence Virtuoso** using the **gpdk060nm CMOS process**. The design utilizes **Threshold-Modulated Current Comparator (TMCC)** architecture for high-speed analog threshold detection.
+This project presents a complete transistor-level design of a **3-bit Flash Analog-to-Digital Converter (ADC)** implemented in **Cadence Virtuoso**. The design utilizes **Threshold-Modulated Current Comparator (TMCC)** architecture for high-speed analog threshold detection.
 
-The ADC converts analog input voltages into digital binary output using:
-- **TMCC Comparators** for voltage threshold detection
-- **Custom CMOS Logic Gates** for signal conditioning
-- **Thermometer-to-Binary Encoder** for digital output generation
-
-All components are designed at the transistor level without using standard cells.
+**Key Achievements:**
+- Designed custom Flash ADC using TMCC comparators and transistor-level encoder
+- Implemented CMOS-based 4-input OR gates to process thermometer code
+- Built custom AND gates to convert TMCC outputs into clean digital levels
+- Successfully created complete Flash ADC from comparators to binary encoder
+- Optimized for low latency and robust analog-to-digital conversion
 
 ---
 
@@ -83,9 +97,9 @@ The **Threshold-Modulated Current Comparator (TMCC)** detects when the input vol
 ### 2. Logic Conversion Stage
 
 <div align="center">
-<img src="images/schematics/7input_and_gate.jpeg" alt="7-Input AND Gate" width="700"/>
+<img src="images/schematics/7input_and_gate.jpeg" alt="AND Gate" width="700"/>
 
-*Custom 7-input AND gate for logic level restoration*
+*Custom AND gate for logic level restoration*
 </div>
 
 - TMCC outputs converted to valid digital levels using **custom CMOS AND gates**
@@ -204,9 +218,19 @@ CMOS-Flash-ADC/
 
 ## Author
 
-**Debtonu Bose**  
-Electronics and Communication Engineering  
-VIT University
+**Debtonu Bose**
+B.Tech Electronics and Communication Engineering
+Vellore Institute of Technology (2021-2025)
+
+[![GitHub](https://img.shields.io/badge/GitHub-DarkDragoXE-black?logo=github)](https://github.com/DarkDragoXE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-debtonu--bose-blue?logo=linkedin)](https://linkedin.com/in/debtonu-bose)
+
+---
+
+## Acknowledgments
+
+- **CSIR-CEERI, Pilani** for providing access to Cadence EDA tools and research guidance
+- Advanced VLSI Design Workshop (March 2025) for foundational training in analog and mixed-signal design
 
 ---
 
@@ -222,6 +246,6 @@ VIT University
 
 <div align="center">
 
-**Custom Analog IC Design | Cadence Virtuoso | gpdk060nm**
+**Custom Analog IC Design | CSIR-CEERI, Pilani | Cadence EDA**
 
 </div>
