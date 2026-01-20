@@ -1,0 +1,30 @@
+# Cadence Virtuoso files
+*.log
+*.cdslck
+*.cdslock
+*.cdslck~
+*.errlog
+*.CDSLCK
+CDS.log*
+.cdsinit
+.cdsenv
+cds.lib
+
+# Simulation results
+*.psf/
+*.raw/
+*.fsdb
+*.vcd
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
