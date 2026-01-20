@@ -3,7 +3,7 @@
 # CMOS Flash ADC with TMCC-Based Comparator
 
 [![Cadence](https://img.shields.io/badge/Tool-Cadence%20Virtuoso-red.svg)](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/layout-design/virtuoso-layout-suite.html)
-[![Technology](https://img.shields.io/badge/Process-gpdk180nm-blue.svg)](/)
+[![Technology](https://img.shields.io/badge/Process-gpdk060nm-blue.svg)](/)
 [![Type](https://img.shields.io/badge/Design-Analog%20IC-green.svg)](/)
 [![ADC](https://img.shields.io/badge/Resolution-3--bit-orange.svg)](/)
 [![Architecture](https://img.shields.io/badge/Architecture-Flash%20ADC-purple.svg)](/)
@@ -18,7 +18,7 @@
 
 ## Overview
 
-This project presents a complete transistor-level design of a **3-bit Flash Analog-to-Digital Converter (ADC)** implemented in **Cadence Virtuoso** using the **gpdk180nm CMOS process**. The design utilizes **Threshold-Modulated Current Comparator (TMCC)** architecture for high-speed analog threshold detection.
+This project presents a complete transistor-level design of a **3-bit Flash Analog-to-Digital Converter (ADC)** implemented in **Cadence Virtuoso** using the **gpdk060nm CMOS process**. The design utilizes **Threshold-Modulated Current Comparator (TMCC)** architecture for high-speed analog threshold detection.
 
 The ADC converts analog input voltages into digital binary output using:
 - **TMCC Comparators** for voltage threshold detection
@@ -143,7 +143,7 @@ The encoder implements **thermometer-to-binary conversion**:
 | Parameter | Value |
 |-----------|-------|
 | **Resolution** | 3-bit |
-| **Technology** | gpdk180nm CMOS |
+| **Technology** | gpdk060nm CMOS |
 | **Supply Voltage** | 1.2 V |
 | **Comparator Type** | TMCC (Threshold-Modulated Current) |
 | **Logic Style** | Complementary CMOS |
@@ -170,7 +170,7 @@ The encoder implements **thermometer-to-binary conversion**:
 |----------|---------------|
 | **Design Environment** | Cadence Virtuoso (ADE L) |
 | **Simulation Engine** | Spectre |
-| **Technology Node** | gpdk180nm CMOS |
+| **Technology Node** | gpdk060nm CMOS |
 | **Supply Voltage** | 1.2 V |
 | **Logic Type** | Custom CMOS (pMOS + nMOS) |
 
@@ -222,6 +222,6 @@ VIT University
 
 <div align="center">
 
-**Custom Analog IC Design | Cadence Virtuoso | gpdk180nm**
+**Custom Analog IC Design | Cadence Virtuoso | gpdk060nm**
 
 </div>
